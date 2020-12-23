@@ -1,1 +1,116 @@
-
+.header
+  padding: 43px 81px 83px 81px
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-top.jpg") no-repeat top
+  background-size: cover
+  &-menu
+    display: flex
+    justify-content: space-evenly
+    margin-bottom: 151px
+  &-logo
+    position: relative
+    top: -25px
+    &__image
+      width: 150px
+      height: 150px
+  &-nav
+    display: flex
+    justify-content: space-between
+    min-width: 446px
+    &__link
+      text-decoration: none
+      color: $text-white
+      font-family: 'Open Sans', sans-serif
+      font-weight: bold
+      font-size: 12px
+      line-height: 18px
+      text-transform: uppercase
+  &-center
+    display: flex
+    justify-content: space-between
+    align-items: start
+  &-schedule
+    color: $text-white
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    font-size: 12px
+    line-height: 12px
+    writing-mode: vertical-rl
+    transform: scale(-1)
+    width: 60px
+  &-contacts
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &__icon
+      border-radius: 50%
+      border: 2px solid rgba(255, 255, 255, 0.2)
+      padding: 20px
+      text-align: center
+      margin-bottom: 20px
+      &__img
+        width: 18px
+        height: 18px
+  &-title
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: cneter
+    &__1
+      text-transform: uppercase
+      color: $text-white
+      font-family: 'Open Sans', sans-serif
+      font-size: 12px
+      line-height: 14px
+      text-align: center
+      letter-spacing: 0.5em
+      font-weight: bold
+      margin-bottom: 15px
+    &__2
+      font-size: 96px
+      color: $text-white
+      font-family: "Banny-BoldRound", sans-serif
+      text-transform: uppercase
+      margin-top: 0
+      margin-bottom: 37px
+      text-align: center
+  &-line
+    margin-bottom: 30px
+    +line
+  &-arrow
+    border: 2px solid rgba(255, 255, 255, 0.2)
+    padding: 10px
+    border-radius: 50%
+    &__img
+      width: 40px
+      height: 40px
+.buttons
+  text-align: center
+  margin-bottom: 82px
+.button
+  border-radius: 5px
+  text-decoration: none
+  border: 1px solid transparent
+  &-primary
+    margin-right: 40px
+    background-color: $details
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    font-size: 12px
+    line-height: 20px
+    text-transform: uppercase
+    color: $text-white
+    padding: 25px 63px
+  &-outline
+    padding: 27px 74px
+    border: 1px solid $text-white
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+    font-size: 12px
+    line-height: 20px
+    text-transform: uppercase
+    color: $text-white
+.border
+  &-horizontal
+    width: 530px
+    height: 1px
+    background-color: $text-white

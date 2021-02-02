@@ -1,0 +1,68 @@
+.our-team
+  padding: 40px 100px 100px 80px
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background/master-chef.jpg") no-repeat center
+  background-size: cover
+  &-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+  &-name
+    margin-top: 0
+    margin-bottom: 45px
+    +fontO
+  &-picture
+    position: relative
+    margin-left: 95px
+    margin-right: 75px
+  &-box
+    right: 350px
+    top: 113px
+    position: absolute
+    +box
+  &-img
+    width: 475px
+    height: 475px
+    object-fit: cover
+    border-radius: 5px
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5)
+  &-main
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+  &-title
+    color: $text-white
+    margin-top: 0
+    margin-bottom: 10px
+    +fontB
+  &-text
+    &-1
+      color: $text-white
+      margin-top: 0
+      margin-bottom: 25px
+      font-weight: bold
+      font-size: 18px
+      line-height: 28px
+      +fontO
+    &-2
+      color: $text-white
+      margin-top: 0
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 24px
+      +fontO
+  &-line
+    margin-top: 0
+    margin-bottom: 20px
+    +line
+.name
+  text-align: center
+  color: $text-white
+  font-style: normal
+  font-weight: bold
+  font-size: 12px
+  line-height: 14px
+  letter-spacing: 0.5em
+  text-transform: uppercase

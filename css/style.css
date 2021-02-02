@@ -360,7 +360,7 @@ template {
 
 .header {
   padding: 43px 81px 83px 81px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-top.jpg") no-repeat top;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background/background-top.jpg") no-repeat top;
   background-size: cover;
 }
 
@@ -389,11 +389,11 @@ template {
 .header-nav__link {
   text-decoration: none;
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header-center {
@@ -404,13 +404,13 @@ template {
 
 .header-schedule {
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 12px;
   writing-mode: vertical-rl;
   transform: scale(-1);
   width: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header-contacts {
@@ -442,23 +442,23 @@ template {
 .header-title__1 {
   text-transform: uppercase;
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   line-height: 14px;
   text-align: center;
   letter-spacing: 0.5em;
   font-weight: bold;
   margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header-title__2 {
   font-size: 96px;
   color: #FFFFFF;
-  font-family: "Banny-BoldRound", sans-serif;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 37px;
   text-align: center;
+  font-family: "Banny-BoldRound",sans-serif;
 }
 
 .header-line {
@@ -502,6 +502,7 @@ template {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 25px 63px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .button-outline {
@@ -513,6 +514,7 @@ template {
   line-height: 20px;
   text-transform: uppercase;
   color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .border-horizontal {
@@ -527,17 +529,14 @@ template {
 
 .about-wrapper {
   display: flex;
-  min-height: 475px;
+  justify-content: center;
 }
 
 .about-title {
   margin-top: 0;
-  margin-bottom: 21px;
-  font-family: "Banny-BoldRound",sans-serif;
-  font-size: 36px;
-  line-height: 48px;
-  text-transform: uppercase;
+  margin-bottom: 15px;
   color: #000000;
+  font-family: "Banny-BoldRound",sans-serif;
 }
 
 .about-main {
@@ -560,11 +559,11 @@ template {
 }
 
 .about-picture {
-  display: inline-block;
+  position: relative;
+  margin-right: 125px;
 }
 
 .about-img {
-  position: absolute;
   width: 475px;
   height: 475px;
   object-fit: cover;
@@ -572,24 +571,170 @@ template {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
 }
 
+.about-text {
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .about-text-1 {
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 22px;
 }
 
 .about-text-2 {
+  line-height: 22px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .about-box {
-  position: relative;
+  position: absolute;
   left: 350px;
   top: 113px;
   width: 250px;
   height: 250px;
   border: 20px solid #E8C300;
   border-radius: 5px;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.our-team {
+  padding: 40px 100px 100px 80px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background/master-chef.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.our-team-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team-name {
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.our-team-picture {
+  position: relative;
+  margin-left: 95px;
+  margin-right: 75px;
+}
+
+.our-team-box {
+  right: 350px;
+  top: 113px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+  border-radius: 5px;
+}
+
+.our-team-img {
+  width: 475px;
+  height: 475px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+.our-team-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-team-title {
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Banny-BoldRound",sans-serif;
+}
+
+.our-team-text-1 {
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.our-team-text-2 {
+  color: #FFFFFF;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.our-team-line {
+  margin-top: 0;
+  margin-bottom: 20px;
+  width: 60px;
+  height: 4px;
+  background-color: #E8C300;
+  border: 4px solid #E8C300;
+  border-radius: 5px;
+}
+
+.name {
+  text-align: center;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.specialties {
+  padding: 99px 80px 45px 135px;
+}
+
+.specialties-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialties-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #000000;
+  font-family: "Banny-BoldRound",sans-serif;
+}
+
+.specialties-line {
+  margin-bottom: 20px;
+  width: 60px;
+  height: 4px;
+  background-color: #E8C300;
+  border: 4px solid #E8C300;
+  border-radius: 5px;
+}
+
+.specialties-schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {

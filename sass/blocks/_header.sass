@@ -1,6 +1,6 @@
 .header
   padding: 43px 81px 83px 81px
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background-top.jpg") no-repeat top
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background/background-top.jpg") no-repeat top
   background-size: cover
   &-menu
     display: flex
@@ -19,24 +19,24 @@
     &__link
       text-decoration: none
       color: $text-white
-      font-family: 'Open Sans', sans-serif
       font-weight: bold
       font-size: 12px
       line-height: 18px
       text-transform: uppercase
+      +fontO
   &-center
     display: flex
     justify-content: space-between
     align-items: start
   &-schedule
     color: $text-white
-    font-family: 'Open Sans', sans-serif
     font-weight: bold
     font-size: 12px
     line-height: 12px
     writing-mode: vertical-rl
     transform: scale(-1)
     width: 60px
+    +fontO
   &-contacts
     display: flex
     flex-direction: column
@@ -58,21 +58,21 @@
     &__1
       text-transform: uppercase
       color: $text-white
-      font-family: 'Open Sans', sans-serif
       font-size: 12px
       line-height: 14px
       text-align: center
       letter-spacing: 0.5em
       font-weight: bold
       margin-bottom: 15px
+      +fontO
     &__2
       font-size: 96px
       color: $text-white
-      font-family: "Banny-BoldRound", sans-serif
       text-transform: uppercase
       margin-top: 0
       margin-bottom: 37px
       text-align: center
+      +fontB
   &-line
     margin-bottom: 30px
     +line
@@ -100,6 +100,7 @@
     text-transform: uppercase
     color: $text-white
     padding: 25px 63px
+    +fontO
   &-outline
     padding: 27px 74px
     border: 1px solid $text-white
@@ -109,6 +110,7 @@
     line-height: 20px
     text-transform: uppercase
     color: $text-white
+    +fontO
 .border
   &-horizontal
     width: 530px

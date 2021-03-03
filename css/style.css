@@ -697,7 +697,7 @@ template {
 }
 
 .table {
-  padding: 99px 80px 45px 135px;
+  padding: 99px 0px 45px 0px;
 }
 
 .table-wrapper {
@@ -768,6 +768,8 @@ template {
 
 .table-button {
   margin-bottom: 10px;
+  width: 278px;
+  height: 60px;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }

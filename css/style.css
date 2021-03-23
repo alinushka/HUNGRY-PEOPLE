@@ -576,26 +576,27 @@ template {
 
 .about-picture {
   position: relative;
-  margin-right: 125px;
+  padding-right: 125px;
 }
 
 .about-text {
-  font-size: 18px;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
 }
 
 .about-text-1 {
+  font-size: 18px;
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: bold;
-  line-height: 22px;
+  line-height: 28px;
 }
 
 .about-text-2 {
-  line-height: 22px;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .about-box {
@@ -642,7 +643,7 @@ template {
 
 .our-team-picture {
   position: relative;
-  margin-left: 95px;
+  padding-left: 125px;
   margin-right: 75px;
 }
 
@@ -732,7 +733,7 @@ template {
 
 .table-picture {
   position: relative;
-  margin-right: 125px;
+  padding-right: 125px;
 }
 
 .table-box {
@@ -839,14 +840,14 @@ template {
 }
 
 .specialties-name {
-  font-family: 'Open Sans', sans-serif;
   margin-bottom: 45px;
   margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .specialties-picture {
   position: relative;
-  margin-left: 95px;
+  padding-left: 125px;
   margin-right: 75px;
 }
 
@@ -1032,6 +1033,56 @@ template {
 .liner {
   height: 50px;
   border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.events {
+  padding: 40px 0px 25px 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background/background-chocolate.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.events-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.events__name {
+  margin-bottom: 45px;
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.events__picture--1 {
+  position: relative;
+  padding-left: 125px;
+  margin-right: 75px;
+}
+
+.events__picture--2 {
+  position: relative;
+  padding-right: 125px;
+}
+
+.events__box--1 {
+  right: 350px;
+  top: 113px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+  border-radius: 5px;
+}
+
+.events__box--2 {
+  left: 350px;
+  top: 113px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+  border-radius: 5px;
 }
 
 @media (max-width: 1200px) {

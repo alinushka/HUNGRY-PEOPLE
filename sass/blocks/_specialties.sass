@@ -1,0 +1,71 @@
+.specialties
+  padding: 45px 0px 45px 0px
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background/background-chocolate.jpg") no-repeat center
+  background-size: cover
+  &-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 45px
+  &-name
+    +fontO
+    margin-bottom: 45px
+    margin-top: 0px
+  &-picture
+    position: relative
+    margin-left: 95px
+    margin-right: 75px
+  &__box
+    right: 350px
+    top: 113px
+    position: absolute
+    +box
+  &-main
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+  &__title
+    color: $text-white
+    margin-top: 0
+    margin-bottom: 15px
+    +fontB
+  &__text
+    &--1
+      color: $text-white
+      margin-top: 0
+      margin-bottom: 25px
+      font-weight: bold
+      font-size: 18px
+      line-height: 28px
+      +fontO
+    &--2
+      color: $text-white
+      margin-top: 0
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 24px
+      +fontO
+  &__line
+    margin-top: 0
+    margin-bottom: 20px
+    +line
+.circle
+  display: flex
+  justify-content: center
+  align-items: center
+  &--m
+    margin-left: 10px
+    margin-right: 10px
+  &-gray
+    background: rgba(255, 255, 255, 0.5)
+    width: 10px
+    height: 10px
+    border-radius: 5px
+  &-white
+    width: 10px
+    height: 10px
+    border-radius: 5px
+    background-color: $text-white

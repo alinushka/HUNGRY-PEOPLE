@@ -1,0 +1,78 @@
+.menu
+  padding: 100px 0px 88px 0px
+  &-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+  &-nav
+    margin-top: 0
+    margin-bottom: 49px
+    padding-top: 21px
+    padding-bottom: 21px
+    display: flex
+    align-items: center
+    &__link
+      height: 50px
+      font-weight: bold
+      font-size: 12px
+      line-height: 18px
+      color: $text-black
+      text-transform: uppercase
+      height: 50px
+      align-items: center
+      margin-right: 40px
+      margin-left: 40px
+      position: relative
+      display: flex
+      +fontO
+      // &:not(:first-child)
+      //   &:after
+      //     content: ''
+      //     position: absolute
+      //     height: 50px
+      //     width: 1px
+      //     background-color: $liner
+  &-main
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    margin-bottom: 34px
+    &__title
+      margin-top: 0
+      margin-bottom: 22px
+      color: $text-black
+      +fontB
+    &__line
+      margin-top: 0
+      margin-bottom: 33px
+      +line
+    &__text
+      margin-top: 0
+      margin-bottom: 0
+      color: $text-black
+      font-weight: bold
+      font-size: 18px
+      line-height: 28px
+      +fontO
+  &-list
+    display: flex
+    align-items: center
+    justify-content: space-around
+.list
+  display: flex
+  flex-wrap: wrap
+  flex-basis: 360px
+  &__a
+    font-size: 18px
+    line-height: 18px
+    color: $pizza
+    +fontB
+  &__span
+    color: $gray
+  &__li
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 18px
+.liner
+  +liner
